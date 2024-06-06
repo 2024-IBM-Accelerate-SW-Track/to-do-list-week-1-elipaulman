@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./About.css";
-import myimage from "../assets/myimage.jpg";
+import myimage1 from "../assets/myimage1.jpg";
+import myimage2 from "../assets/myimage2.jpg";
+import myimage3 from "../assets/myimage3.jpg";
+
 
 export default class About extends Component {
   render() {
@@ -10,7 +13,7 @@ export default class About extends Component {
           <div className="centered">
             <img
               className="profile_image"
-              src={myimage}
+              src={myimage1}
               alt="Profile Pic"
             ></img>
           </div>
